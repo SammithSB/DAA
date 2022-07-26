@@ -647,6 +647,6 @@ Efficiency of using adjacency list is Θ(|V|+|E|)
 <h3>Topological sorting problem</h3>
 Consider you need to complete 5 set of courses to complete a degree, pre-requisites have to be completed before go on to the next course. Topological sorting problem is to find the order in which one needs to do those courses.
 
-![toposort](./toposort.png)
+![toposort](./static/toposort.png)
 
 To solve this we identify the source vertex, delete the source vertex and its outgoing edges, we keep doing that, till all vertices are gone and we get the path.
